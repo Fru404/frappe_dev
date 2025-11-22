@@ -1,0 +1,70 @@
+2025-11-22 04:03:29,258 DEBUG cd frappe_bench && python3 -m venv env
+2025-11-22 04:03:32,447 DEBUG cd frappe_bench && /workspaces/frappe_dev/frappe_bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-11-22 04:03:33,876 DEBUG cd frappe_bench && /workspaces/frappe_dev/frappe_bench/env/bin/python -m pip install --quiet wheel
+2025-11-22 04:03:34,433 LOG Getting frappe
+2025-11-22 04:03:34,433 DEBUG cd frappe_bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-11-22 04:03:36,180 LOG Installing frappe
+2025-11-22 04:03:36,183 DEBUG cd /workspaces/frappe_dev/frappe_bench && /workspaces/frappe_dev/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /workspaces/frappe_dev/frappe_bench/apps/frappe 
+2025-11-22 04:04:05,237 DEBUG cd /workspaces/frappe_dev/frappe_bench/apps/frappe && yarn install --check-files
+2025-11-22 04:04:21,850 DEBUG cd frappe_bench && bench build
+2025-11-22 04:04:21,971 INFO /home/codespace/.python/current/bin/bench build
+2025-11-22 04:04:45,029 LOG setting up backups
+2025-11-22 04:04:45,212 LOG backups were set up
+2025-11-22 04:04:45,213 INFO Bench frappe_bench initialized
+2025-11-22 04:08:27,164 INFO /home/codespace/.python/current/bin/bench get-app erpnext https://github.com/Fru404/erpnext_phrous
+2025-11-22 04:08:27,173 LOG Getting erpnext_phrous
+2025-11-22 04:08:27,174 DEBUG cd ./apps && git clone https://github.com/Fru404/erpnext_phrous  --depth 1 --origin upstream
+2025-11-22 04:08:29,450 LOG Installing erpnext
+2025-11-22 04:08:29,450 DEBUG cd /workspaces/frappe_dev/frappe_bench && /workspaces/frappe_dev/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /workspaces/frappe_dev/frappe_bench/apps/erpnext 
+2025-11-22 04:08:56,426 DEBUG cd /workspaces/frappe_dev/frappe_bench/apps/erpnext && yarn install --check-files
+2025-11-22 04:08:56,852 DEBUG bench build --app erpnext
+2025-11-22 04:08:56,968 INFO /home/codespace/.python/current/bin/bench build --app erpnext
+2025-11-22 04:09:53,915 INFO /home/codespace/.python/current/bin/bench get-app hrms https://github.com/Fru404/hrms_phrous
+2025-11-22 04:09:53,922 LOG Getting hrms_phrous
+2025-11-22 04:09:53,922 DEBUG cd ./apps && git clone https://github.com/Fru404/hrms_phrous  --depth 1 --origin upstream
+2025-11-22 04:09:55,025 LOG Installing hrms
+2025-11-22 04:09:55,025 DEBUG cd /workspaces/frappe_dev/frappe_bench && /workspaces/frappe_dev/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /workspaces/frappe_dev/frappe_bench/apps/hrms 
+2025-11-22 04:09:56,552 DEBUG cd /workspaces/frappe_dev/frappe_bench/apps/hrms && yarn install --check-files
+2025-11-22 04:10:57,864 DEBUG bench build --app hrms
+2025-11-22 04:10:58,019 INFO /home/codespace/.python/current/bin/bench build --app hrms
+2025-11-22 04:11:57,832 INFO /home/codespace/.python/current/bin/bench get-app rentals https://github.com/Fru404/frappe_codespace/tree/rentals
+2025-11-22 04:11:57,840 LOG Getting rentals
+2025-11-22 04:11:57,840 DEBUG cd ./apps && git clone https://github.com/Fru404/frappe_codespace/tree/rentals  --depth 1 --origin upstream
+2025-11-22 04:11:58,347 WARNING cd ./apps && git clone https://github.com/Fru404/frappe_codespace/tree/rentals  --depth 1 --origin upstream executed with exit code 128
+2025-11-22 04:11:58,347 WARNING /home/codespace/.python/current/bin/bench get-app rentals https://github.com/Fru404/frappe_codespace/tree/rentals executed with exit code 1
+2025-11-22 04:13:29,810 INFO /home/codespace/.python/current/bin/bench get-app rentals https://github.com/Fru404/frappe_codespace/tree/rentals/rentals
+2025-11-22 04:13:29,817 LOG Getting rentals
+2025-11-22 04:13:29,817 DEBUG cd ./apps && git clone https://github.com/Fru404/frappe_codespace/tree/rentals/rentals  --depth 1 --origin upstream
+2025-11-22 04:13:30,108 WARNING cd ./apps && git clone https://github.com/Fru404/frappe_codespace/tree/rentals/rentals  --depth 1 --origin upstream executed with exit code 128
+2025-11-22 04:13:30,109 WARNING /home/codespace/.python/current/bin/bench get-app rentals https://github.com/Fru404/frappe_codespace/tree/rentals/rentals executed with exit code 1
+2025-11-22 04:14:17,473 INFO /home/codespace/.python/current/bin/bench get-app rentals https://github.com/Fru404/frappe_codespace/tree/rentals/rentals
+2025-11-22 04:14:17,481 LOG Getting rentals
+2025-11-22 04:14:17,481 DEBUG cd ./apps && git clone https://github.com/Fru404/frappe_codespace/tree/rentals/rentals  --depth 1 --origin upstream
+2025-11-22 04:14:17,785 WARNING cd ./apps && git clone https://github.com/Fru404/frappe_codespace/tree/rentals/rentals  --depth 1 --origin upstream executed with exit code 128
+2025-11-22 04:14:17,785 WARNING /home/codespace/.python/current/bin/bench get-app rentals https://github.com/Fru404/frappe_codespace/tree/rentals/rentals executed with exit code 1
+2025-11-22 04:15:23,746 INFO /home/codespace/.python/current/bin/bench get-app rentals https://github.com/Fru404/frappe_codespace --branch rentals
+2025-11-22 04:15:23,758 LOG Getting frappe_codespace
+2025-11-22 04:15:23,758 DEBUG cd ./apps && git clone https://github.com/Fru404/frappe_codespace --branch rentals --depth 1 --origin upstream
+2025-11-22 04:15:24,158 LOG Installing rentals
+2025-11-22 04:15:24,158 DEBUG cd /workspaces/frappe_dev/frappe_bench && /workspaces/frappe_dev/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /workspaces/frappe_dev/frappe_bench/apps/rentals 
+2025-11-22 04:15:26,352 DEBUG bench build --app rentals
+2025-11-22 04:15:26,464 INFO /home/codespace/.python/current/bin/bench build --app rentals
+2025-11-22 04:18:11,409 INFO /home/codespace/.python/current/bin/bench new-site phrous.local
+2025-11-22 04:21:17,939 INFO /home/codespace/.python/current/bin/bench new-site phrous.local --db-root-username root
+2025-11-22 04:23:14,095 INFO /home/codespace/.python/current/bin/bench new-site phrouse.local --db-root-username root --db-root-password 123
+2025-11-22 04:26:15,674 INFO /home/codespace/.python/current/bin/bench --site phrous.local install-app erpnext
+2025-11-22 04:27:06,425 INFO /home/codespace/.python/current/bin/bench use phrous.local
+2025-11-22 04:27:29,204 INFO /home/codespace/.python/current/bin/bench --site phrouse.local install-app erpnext
+2025-11-22 04:28:23,955 INFO /home/codespace/.python/current/bin/bench start
+2025-11-22 04:28:25,218 INFO /home/codespace/.python/current/bin/bench watch
+2025-11-22 04:28:25,229 INFO /home/codespace/.python/current/bin/bench worker
+2025-11-22 04:28:25,305 INFO /home/codespace/.python/current/bin/bench schedule
+2025-11-22 04:28:25,365 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2025-11-22 04:30:32,816 INFO /home/codespace/.python/current/bin/bench use phrouse.local
+2025-11-22 04:30:51,825 INFO /home/codespace/.python/current/bin/bench start
+2025-11-22 04:30:52,351 INFO /home/codespace/.python/current/bin/bench watch
+2025-11-22 04:30:52,633 INFO /home/codespace/.python/current/bin/bench schedule
+2025-11-22 04:30:52,725 INFO /home/codespace/.python/current/bin/bench serve --port 8000
+2025-11-22 04:30:52,732 INFO /home/codespace/.python/current/bin/bench worker
+2025-11-22 04:35:21,899 INFO /home/codespace/.python/current/bin/bench --site phrouse.local install-app hrms
+2025-11-22 04:36:07,683 INFO /home/codespace/.python/current/bin/bench --site phrouse.local install-app rentals
